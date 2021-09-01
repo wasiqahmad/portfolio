@@ -115,7 +115,7 @@ padding-bottom: 2rem;
   @media (max-width:35.75em) {  /* 572px */
     .bio-img{
       width:90% !important;
-        margin-left: 3.5rem; 
+        margin-left: 1.5rem; 
       /* height: 40rem ;    1 rem = 4.8px, 8/16 = 50% */
   }}
 @media (max-width:57.8em) {  /* 925px */
@@ -128,7 +128,14 @@ padding-bottom: 2rem;
         .my-bio{
             width: 70% !important;
         }}
-
+        @media (max-width:35.6875em) {  /* 925px */
+            .my-bio{
+                position: relative;
+                top: 1rem;
+                margin-left: 4rem;
+                width: 70% !important;
+            }}
+    
     
 .percent-line-1{
     /* background-color: green; */
@@ -269,11 +276,6 @@ display: block;
     margin-bottom: 2rem;
 }
 
-@media (max-width: 20.75em) {  /* 1200px */
-    .heading-portfolio{
-    margin-left: 5rem ;
-    }}
-    
 .all-pics{
     width: 20rem ;
     height: 16rem ;
@@ -292,7 +294,7 @@ display: block;
 
 @media (max-width: 22.3125em) {  /* 1200px */
     .all-pics{
-     margin-left: 4rem;    
+     margin-left: 1.7rem;    
     }}
 .all-pics:hover{
     /* outline: 1.5rem solid #55c57a; */
@@ -302,17 +304,10 @@ box-shadow: 0 2.5rem 4rem rgba(rgb(0, 0, 0), .5);
 }
 /* Card */
 
-
 .feature-header{
     text-align: center;
     padding-top: 7rem;
 }
-@media (max-width:22em) {  /* 925px */
-    .feature-header{
-       margin-left: 4rem;    /* 1 rem = 4.8px, 8/16 = 50% */
-       /* padding: 0%;   */
-    }}    
-
 .card-section{
     /* text-align: center; */
     padding-top: 3rem;
@@ -327,7 +322,25 @@ box-shadow: 0 2.5rem 4rem rgba(rgb(0, 0, 0), .5);
     @media (max-width:51.25em) {  /* 925px */
         .card-section{
       margin-left: 8rem ;
-      margin-right: 1rem;
+      /* margin-right: 1rem; */
+    }} 
+       
+    @media (max-width:42.1875em) {  /* 925px */
+        .card-section{
+      margin-left: 6rem ;
+      /* margin-right: 1rem; */
+    }}           
+  
+    @media (max-width:24.9375em) {  /* 925px */
+        .card-section{
+        margin: auto 4rem;
+            /* margin-right: 1rem; */
+    }}           
+    @media (max-width:20.1875em) {  /* 925px */
+        .card-section{
+        margin: auto 4rem;
+        margin-left: 6rem;
+            /* margin-right: 1rem; */
     }}           
   
 .card{
@@ -1116,19 +1129,19 @@ margin-left: 4.5rem;
             left:-17rem !important;
         }}
         
-    @media (max-width: 26.1875em) {  /* 1318px */
-        .story-img-responsive-4{
-            position: relative;
-            top: 19rem !important;
-            left:-13rem !important;
-        }}
         @media (max-width: 26.1875em) {  /* 1318px */
             .story-img-responsive-4{
                 position: relative;
-                top: 21rem !important;
-                left:-13rem !important;
+                top: 19rem !important;
+                left:-14rem !important;
             }}
             
+        @media (max-width: 24.1875em) {  /* 1318px */
+            .story-img-responsive-4{
+                position: relative;
+                top: 22rem !important;
+                left:-13rem !important;
+            }}
     @media (max-width: 23.25em) {  /* 1318px */
         .story-img-responsive-4{
             position: relative;
