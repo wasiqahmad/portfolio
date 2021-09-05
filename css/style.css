@@ -3,10 +3,11 @@
     font-size:80.25%;/*1 rem = 9px, 9/16 = 50% */
 }}
 
-body{
-    color: blue !important;
-}
 /* Navbar */
+
+.nav-link{
+    color: #fff !important}
+
 .navbar-nav{
 padding-top: 2rem;
     width: 70%;
@@ -19,7 +20,7 @@ padding-top: 2rem;
     border-bottom: 1px solid #fff;
 }
 .nav-link{
-cursor: pointer;
+    cursor: pointer;
 transition: all .2s;
 animation:link 1s infinite;
 }
@@ -31,7 +32,7 @@ box-shadow: none;
     }
     50%{
         transform: scale(1.05);
-        box-shadow: 0rem 1rem 4rem rgba(0, 0, 0, .25);
+        box-shadow: 0rem 1rem 4rem rgba(0, 0, 0,.1);
     }
     100%{
         transform: scale(1);
@@ -42,11 +43,11 @@ box-shadow: none;
 /* Header */
 .header{
 /* padding-top: 50rem; */
-    background-image: url(../images/desk3.jpg);
+    background-image: url(../images/header-6.jpg);
 /* background-color: #000; */
     background-repeat: repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top 30%;
 }
 @media (max-width:69em) {  /* 1100px */
     .header{
@@ -58,18 +59,29 @@ margin: 0%;
 
 
 .header-main{
-    padding-top: 12rem;
+    /* padding-top: 2rem; */
 padding-bottom: 15rem;
+/* padding-left: 2; */
+text-align: center;
 }
 
+.my-pic{
+    width: 10rem;
+    height: 10rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    border-radius: 50rem !important;
+
+}
 /* My Bio */
 
 .my-bio{
 width: 40%;
 margin-left: auto;
-margin-right: 3rem;
+margin-right: 8rem;
 margin-top: 5rem;
 padding-bottom: 2rem;
+/* margin-left: 40rem; */
 }
 @media (max-width:69em) {  /* 1100px */
     .my-bio{
@@ -82,10 +94,11 @@ padding-bottom: 2rem;
             /* padding: 0%;   */
         }}
 .bio-img{
-    width: 47.5rem;
-    height: 41rem;
+    width: 37.5rem;
+    height: 27rem;
     float: left;
     padding: 0 6%;
+    /* padding-left: 5rem; */
 }
 @media (max-width:69em) {  /* 1100px */
   .bio-img{
@@ -141,26 +154,7 @@ padding-bottom: 2rem;
                 width: 70% !important;
             }}
     
-    
-.percent-line-1{
-    /* background-color: green; */
-width: 20rem;
-border-bottom: 3px solid rgb(0, 255, 0);
-float: left;
-margin-top: 2%;
-margin-right: 1rem;
-}
-@media (max-width:57.8em) {  /* 925px */
-    .percent-line-1{
-       width: 16rem;   /* 1 rem = 4.8px, 8/16 = 50% */
-       /* padding: 0%;   */
-    }}    
-    
-@media (max-width:54em) {  /* 925px */
-    .percent-line-1{
-       width: 13rem;       /*1 rem = 4.8px, 8/16 = 50% */
-       /* padding: 0%;   */
-    }}    
+     
 .percent-line-2{
     /* background-color: green; */
 width: 24rem;
@@ -179,7 +173,13 @@ margin-right: 1rem;
     .percent-line-2{
        width: 15rem;       /*1 rem = 4.8px, 8/16 = 50% */
        /* padding: 0%;   */
-    }}    
+    }}  
+    
+@media (max-width:44.25em) {  /* 925px */
+    .percent-line-2{
+       width: 13rem !important;       /*1 rem = 4.8px, 8/16 = 50% */
+       /* padding: 0%;   */
+    }}  
 .percent-line-3{
     /* background-color: green; */
 width: 22.5rem;
@@ -199,47 +199,6 @@ margin-right: 1rem;
        width: 13.5rem;       /*1 rem = 4.8px, 8/16 = 50% */
        /* padding: 0%;   */
     }}    
-.percent-line-4{
-    /* background-color: green; */
-width: 23.5rem;
-border-bottom: 3px solid rgb(0, 255, 0);
-float: left;
-margin-top: 2%;
-margin-right: 1rem;
-}
-@media (max-width:57.25em) {  /* 925px */
-    .percent-line-4{
-       width:19.5rem ;    /* 1 rem = 4.8px, 8/16 = 50% */
-       /* padding: 0%;   */
-    }}
-    
-@media (max-width:54em) {  /* 925px */
-    .percent-line-4{
-       width: 14.5rem;       /*1 rem = 4.8px, 8/16 = 50% */
-       /* padding: 0%;   */
-    }}    
-.percent-line-5{
-    /* background-color: green; */
-width: 21.5rem;
-border-bottom: 3px solid rgb(0, 255, 0);
-float: left;
-margin-top: 2%;
-margin-right: 1rem;
-}
-@media (max-width:57.25em) {  /* 925px */
-    .percent-line-5{
-       width: 17.5rem ;       /* 1 rem = 4.8px, 8/16 = 50% */
-       /* padding: 0%;   */
-    }}
-    
-@media (max-width:54em) {  /* 925px */
-    .percent-line-5{
-       width: 12.5rem;       /*1 rem = 4.8px, 8/16 = 50% */
-       /* padding: 0%;   */
-    }}    
-.line-hovers:hover{
-color: rgba(0, 0, 255, .7) !important;
-}
 
 .sub-button{
     background-color: rgb(39, 190, 39);
@@ -273,21 +232,37 @@ box-shadow: none;
 
 .my-portfolio{
     padding-top: 5rem;
-    /* margin-bottom: 5rem; */
+    margin-bottom: 5rem;
 text-align: center;
 display: block;
 }
 .heading-portfolio{
-    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+.project-section{
+    margin-top: 3rem !important;
+margin:0 7rem;
 }
 
-.all-pics{
-    width: 20rem ;
-    height: 16rem ;
-    margin: 1rem;
+.project-section-2{
+    margin-top: 3rem !important;
+margin:0 7rem;
+}
+.all-pics-1{
+    /* width: 20rem !important;
+    height: 16rem !important; */
+    /* margin: 1rem; */
     border: hidden;
     transition: all .2s;
-    /* outline-offset: 2rem; */
+    float: left;
+    margin-left: 4rem;
+}
+.all-pics-2{
+    float: left;
+margin-left: 4rem;
+}
+.all{
+    margin-right: 4rem;
 }
 @media (max-width: 75em) {  /* 1200px */
 .all-pics{
@@ -311,44 +286,42 @@ box-shadow: 0 2.5rem 4rem rgba(rgb(0, 0, 0), .5);
 
 .feature-header{
     text-align: center;
-    padding-top: 7rem;
+    /* padding-top: 7rem; */
 }
-.card-section{
-    /* text-align: center; */
-    padding-top: 3rem;
+.cards-section{
     margin: auto;
     max-width: 62rem;
 }
 @media (max-width:59em) {  /* 925px */
-    .card-section{
+    .cards-section{
        margin-left: 4rem;    /* 1 rem = 4.8px, 8/16 = 50% */
        /* padding: 0%;   */
     }}    
     @media (max-width:51.25em) {  /* 925px */
-        .card-section{
+        .cards-section{
       margin-left: 8rem ;
       /* margin-right: 1rem; */
     }} 
        
     @media (max-width:42.1875em) {  /* 925px */
-        .card-section{
+        .cards-section{
       margin-left: 6rem ;
       /* margin-right: 1rem; */
     }}           
   
     @media (max-width:24.9375em) {  /* 925px */
-        .card-section{
+        .cards-section{
         margin: auto 4rem;
             /* margin-right: 1rem; */
     }}           
     @media (max-width:20.1875em) {  /* 925px */
-        .card-section{
+        .cards-section{
         margin: auto 4rem;
         margin-left: 6rem;
             /* margin-right: 1rem; */
     }}           
   
-.card{
+.cards{
     width: 18rem;
     border: hidden;
     float: left;
@@ -357,12 +330,12 @@ box-shadow: 0 2.5rem 4rem rgba(rgb(0, 0, 0), .5);
     /* margin-left: 2rem; */
 }
 @media (max-width:39.375em) {  /* 925px */
-    .card{
+    .cards{
 font-size: 140%;
 width: 80% !important;
 }}           
 @media (max-width:25em) {  /* 925px */
-    .card{
+    .cards{
 width:100% !important;
 margin-left: 0rem;
 }}           
@@ -390,12 +363,12 @@ margin-left: 0rem;
     }
 }
 
-.card-body{
+.cards-body{
     transition: transform .3s;
     box-shadow: 0rem 1.5rem 4rem rgba(0, 0, 0, .15);
 
 }
-.card-body:hover{
+.cards-body:hover{
 transform: translateY(-1.5rem) scale(1.03);
 }
 
@@ -411,6 +384,7 @@ color: rgba(0, 0, 255, .7);
 /* Story Section */
 
 .story-section{
+margin-top: 26rem !important;
     max-width: 85rem;
     margin: auto;
     text-align: center;
@@ -423,7 +397,6 @@ margin-top: 55rem !important;
 
 .story-heading{
     /* background-color: hotpink; */
-margin-top: 33.5rem !important;
     width: 25rem;
     margin: auto;
 }
@@ -460,7 +433,10 @@ margin-top: 33.5rem !important;
     margin-left: 5rem;
     /* padding-left: 2rem; */
 }
-
+.story__main-text-2{
+    /* margin: 0% !important; */
+    padding: 0% !important;
+}
 @media (max-width: 82.375em) {  /* 1318px */
     .story__main-text,.story__main-text-2{
 
@@ -764,6 +740,10 @@ margin:3rem 0rem;
 margin-left: 3rem;
 }
 
+.new-icon{
+    margin-top: .5rem;
+    color: green;
+}
 @media (max-width: 60em) {  /* 1318px */
     .story-img-1{
 position: relative;
@@ -1202,8 +1182,8 @@ margin-left: 4.5rem;
 
 .footer{
     position: relative;
-    top: 10rem;
-    margin-top: 15rem;
+    top: 6rem;
+    /* margin-top: 15rem; */
 }
 @media (max-width: 60em) {  /* 1318px */
     .footer{
