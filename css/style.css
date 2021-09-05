@@ -202,7 +202,7 @@ margin-right: 1rem;
 
 .sub-button{
     background-color: rgb(39, 190, 39);
-    color: khaki;
+    color: #fff;
     padding: .5rem 3rem;
     border-radius: 30rem;
     border: hidden;
@@ -243,7 +243,9 @@ display: block;
     margin-top: 3rem !important;
 margin:0 7rem;
 }
-
+.project-button{
+text-transform: capitalize;
+}
 .project-section-2{
     margin-top: 3rem !important;
 margin:0 7rem;
@@ -343,6 +345,7 @@ margin-left: 0rem;
 .btn-primary{
     border-radius: 40rem;
     border: hidden;
+    color: white !important;
     background-color: rgb(23, 177, 23);
     margin: 1rem 0rem;
     transition: all .2s;
