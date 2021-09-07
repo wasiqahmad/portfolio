@@ -1,6 +1,7 @@
 @media (max-width: 75em) {  /* 1200px */
     html{
-    font-size:80.25%;/*1 rem = 9px, 9/16 = 50% */
+    font-size:80.25%;
+    /* 1 rem = 9px, 9/16 = 50% */
 }}
 
 /* Navbar */
@@ -103,36 +104,37 @@ padding-bottom: 2rem;
 @media (max-width:69em) {  /* 1100px */
   .bio-img{
     width:42rem !important;
-    height: 38rem ;       /*1 rem = 4.8px, 8/16 = 50% */
+    height: 27rem ;       /*1 rem = 4.8px, 8/16 = 50% */
 }}
 
 
 @media (max-width:62.5em) {  /* 1100px */
     .bio-img{
       width:37rem !important;
-      height: 36rem ;       /*1 rem = 4.8px, 8/16 = 50% */
+      height: 27rem ;       /*1 rem = 4.8px, 8/16 = 50% */
   }}
   @media (max-width:51.25em) {  /* 1100px */
     .bio-img{
       width:30rem !important ;
-      height: 38rem ;    /* 1 rem = 4.8px, 8/16 = 50% */
+      height: 27rem ;    /* 1 rem = 4.8px, 8/16 = 50% */
   }}
   
   @media (max-width:40.75em) {  /* 652px */
     .bio-img{
       width:26rem !important ;
-      height: 40rem ;       /* 1 rem = 4.8px, 8/16 = 50% */
+      height: 27rem ;       /* 1 rem = 4.8px, 8/16 = 50% */
   }}
   
   @media (max-width:37.5em) {  /* 1100px */
     .bio-img{
       width:24rem !important ;
-      height: 40rem ;    /* 1 rem = 4.8px, 8/16 = 50% */
+      height: 25rem ;    /* 1 rem = 4.8px, 8/16 = 50% */
   }}
   
   @media (max-width:35.75em) {  /* 572px */
     .bio-img{
       width:90% !important;
+      height: 40rem ;
         margin-left: 1.5rem; 
       /* height: 40rem ;    1 rem = 4.8px, 8/16 = 50% */
   }}
@@ -180,6 +182,40 @@ margin-right: 1rem;
        width: 13rem !important;       /*1 rem = 4.8px, 8/16 = 50% */
        /* padding: 0%;   */
     }}  
+    @media (max-width:43em) {  /* 925px */
+        .percent-line-2{
+           width: 12rem !important;       /*1 rem = 4.8px, 8/16 = 50% */
+           /* padding: 0%;   */
+        }}  
+        
+    @media (max-width:41.875em) {  /* 925px */
+        .percent-line-2{
+           width: 10.5rem !important;       /*1 rem = 4.8px, 8/16 = 50% */
+           /* padding: 0%;   */
+        }}  
+        
+    @media (max-width:35.75em) {  /* 925px */
+        .percent-line-2{
+           width: 25.5rem !important;       /*1 rem = 4.8px, 8/16 = 50% */
+           /* padding: 0%;   */
+        }}  
+        @media (max-width:31.625em) {  /* 925px */
+            .percent-line-2{
+               width: 19.5rem !important;       /*1 rem = 4.8px, 8/16 = 50% */
+               /* padding: 0%;   */
+            }}  
+            
+        @media (max-width:24.75em) {  /* 925px */
+            .percent-line-2{
+               width: 15.5rem !important;       /*1 rem = 4.8px, 8/16 = 50% */
+               /* padding: 0%;   */
+            }}  
+            
+        @media (max-width:20.25em) {  /* 925px */
+            .percent-line-2{
+               width: 12.5rem !important;       /*1 rem = 4.8px, 8/16 = 50% */
+               /* padding: 0%;   */
+            }}  
 .percent-line-3{
     /* background-color: green; */
 width: 22.5rem;
@@ -199,7 +235,44 @@ margin-right: 1rem;
        width: 13.5rem;       /*1 rem = 4.8px, 8/16 = 50% */
        /* padding: 0%;   */
     }}    
+    
+    @media (max-width:43em) {  /* 925px */
+        .percent-line-3{
+           width: 12rem !important;       /*1 rem = 4.8px, 8/16 = 50% */
+           /* padding: 0%;   */
+           margin-bottom: 2rem;
+        }}  
 
+        @media (max-width:41.875em) {  /* 925px */
+            .percent-line-3{
+               width: 10rem !important;       /*1 rem = 4.8px, 8/16 = 50% */
+               /* padding: 0%;   */
+               margin-bottom: 2rem;
+            }}  
+            
+    @media (max-width:35.75em) {  /* 925px */
+        .percent-line-3{
+           width: 23.5rem !important;       /*1 rem = 4.8px, 8/16 = 50% */
+           /* padding: 0%;   */
+        }}  
+    
+        @media (max-width:31.625em) {  /* 925px */
+            .percent-line-3{
+               width: 18.5rem !important;       /*1 rem = 4.8px, 8/16 = 50% */
+               /* padding: 0%;   */
+            }}  
+            
+        @media (max-width:24.75em) {  /* 925px */
+            .percent-line-3{
+               width: 14rem !important;       /*1 rem = 4.8px, 8/16 = 50% */
+               /* padding: 0%;   */
+            }}  
+            
+        @media (max-width:20.25em) {  /* 925px */
+            .percent-line-3{
+               width: 11rem !important;       /*1 rem = 4.8px, 8/16 = 50% */
+               /* padding: 0%;   */
+            }}  
 .sub-button{
     background-color: rgb(39, 190, 39);
     color: #fff;
@@ -241,49 +314,57 @@ display: block;
 }
 .project-section{
     margin-top: 3rem !important;
-margin:0 7rem;
+/* margin:0 10%; */
+max-width: 60rem;
+margin: auto;
 }
+    
+@media (max-width:48.125em) {  /* 925px */
+    .project-section{
+/* font-size: 0%; */
+/* max-width: 70% !important; */
+    }}    
 .project-button{
 text-transform: capitalize;
 }
 .project-section-2{
-    margin-top: 3rem !important;
-margin:0 7rem;
+    max-width: 60rem;
+    margin: auto;
+margin-top: 2rem;
 }
+@media (max-width:49.375em) {  /* 925px */
+    .project-section-2{
+/* max-width: 70% !important; */
+    }}    
+
+    @media (max-width:48.125em) {  /* 925px */
+        .projectss{
+    /* width: 35% !important; */
+        }}   
+
 .all-pics-1{
-    /* width: 20rem !important;
-    height: 16rem !important; */
-    /* margin: 1rem; */
     border: hidden;
-    transition: all .2s;
+    /* transition: all .2s; */
     float: left;
-    margin-left: 4rem;
+    margin: 0% 1rem;
+    border: none;
 }
 .all-pics-2{
     float: left;
-margin-left: 4rem;
+margin: 0% 1rem;
+border: none;
 }
 .all{
-    margin-right: 4rem;
+    margin-right: 2rem !important;
+/* border: none; */
 }
-@media (max-width: 75em) {  /* 1200px */
-.all-pics{
-    width: 22rem;
-    height: 15rem;
-    
 
-}}
 
-@media (max-width: 22.3125em) {  /* 1200px */
-    .all-pics{
-     margin-left: 1.7rem;    
-    }}
-.all-pics:hover{
-    /* outline: 1.5rem solid #55c57a; */
-    transform: scale(1.15) translateY(-.5rem);
-box-shadow: 0 2.5rem 4rem rgba(rgb(0, 0, 0), .5);
 
-}
+    .projectss{
+border: none ;
+    }
+
 /* Card */
 
 .feature-header{
@@ -1238,3 +1319,9 @@ margin-left: 4.5rem;
                                         margin-top: 95rem !important;
                                     }}
 
+.btn-footer{
+position: relative;
+left: 20rem;
+padding: .5rem 2rem;
+
+}
