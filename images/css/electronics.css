@@ -1,0 +1,46 @@
+body{
+  /* background:tomato; */
+  background-image: url(../images/website-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+width: 450px;
+margin: auto;
+text-align: center;
+}
+h1{
+    color:white ;
+    width: 154px;
+    margin: auto;
+    /* border: 4px solid hotpink; */
+    /* background: lightseagreen; */
+}
+
+hr{
+    color: violet;
+}
+img{
+    border:grey 5px solid;
+    /* padding: 5px; */
+    margin: 5px;
+    margin-top: 20px;
+    width: 400px;
+    height: 300px;
+}
+button{
+    color: yellow;
+background-color: brown;
+    margin-top: 60px;
+    border-radius: 5px;
+    font-size: 25px;
+    /* margin-bottom: 100px; */
+}
+
+
+.background{
+    width: 450px;
+ /* height: 1750px; */
+    margin: auto;
+    /* color: white; */
+    background-color: rgb(50, 100, 100);
+    text-align: center;
+}
